@@ -71,7 +71,7 @@ try {
   });
   await runAgent(
     agent,
-    '`/Users/exkazuu/ghq/github.com/exKAZUu/intro-to-ai-agent-dev/src/lecture4/scores.xlsx` というファイルのScoresシートを読んで、各科目の平均点を計算して。'
+    '`/Users/exkazuu/ghq/github.com/exKAZUu/ai-agent-dev/src/lecture4/scores.xlsx` というファイルのScoresシートを読んで、各科目の平均点を計算して。'
   );
 } finally {
   await client.close();
@@ -121,3 +121,4 @@ async function runAgent(agent: ReactAgent, prompt: string): Promise<void> {
 
   console.dir(finalMessage.content, { depth: null });
 }
+

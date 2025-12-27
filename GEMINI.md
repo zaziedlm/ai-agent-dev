@@ -1,6 +1,6 @@
 ## Project Information
 
-- Name: intro-to-ai-agent-dev
+- Name: ai-agent-dev
 - Description: A collection of example code for AI Agent Development
 - Package Manager: bun
 
@@ -17,3 +17,4 @@
 
 - Write comments that explain "why" rather than "what". Avoid explanations that can be understood from the code itself.
 - When adding new functions or classes, define them below any functions or classes that call them to maintain clear call order.
+

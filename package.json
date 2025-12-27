@@ -1,8 +1,8 @@
 {
-  "name": "intro-to-ai-agent-dev",
+  "name": "ai-agent-dev",
   "private": true,
   "description": "A collection of example code for AI Agent Development",
-  "repository": "github:exKAZUu/intro-to-ai-agent-dev",
+  "repository": "github:exKAZUu/ai-agent-dev",
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
@@ -44,3 +44,4 @@
     "typescript": "5.9.3"
   }
 }
+

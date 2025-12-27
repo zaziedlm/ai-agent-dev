@@ -21,7 +21,7 @@ try {
   });
   await runAgent(
     agent,
-    '架空の10人分の4科目のテストの点数を生成して、 `/Users/exkazuu/ghq/github.com/exKAZUu/intro-to-ai-agent-dev/src/lecture3/scores.xlsx` というファイルのScoresシートに保存して。'
+    '架空の10人分の4科目のテストの点数を生成して、 `/Users/exkazuu/ghq/github.com/exKAZUu/ai-agent-dev/src/lecture3/scores.xlsx` というファイルのScoresシートに保存して。'
   );
 } finally {
   await mcpServer.close();
@@ -48,3 +48,4 @@ async function runAgent(agent: Agent, prompt: string): Promise<void> {
     console.log('回答を生成できませんでした。');
   }
 }
+
