@@ -166,3 +166,5 @@ function askUserForClarifications(questions: string[]): string[] {
   }
   return answers;
 }
+
+// 例1: 2025年の日本における再生可能エネルギー投資動向を調べて、主要な統計を計 算し、Markdown形式で表を出力して
